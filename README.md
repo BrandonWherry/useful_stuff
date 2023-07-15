@@ -2,6 +2,9 @@
 
 ## Enable scroll wheel in screen
 ```bash
+
+apt-get install screen
+
 nano ~/.screenrc
 
 # OR
@@ -10,7 +13,7 @@ nano ~/.screenrc
 
 echo 'termcapinfo xterm* ti@:te@'
 
-}
+} >> ~/.screenrc
 ```
 
 ## Useful cache redirects
@@ -33,3 +36,32 @@ rm -rf ~/miniconda3/miniconda.sh && \
 ~/miniconda3/bin/conda init bash && \
 exec bash
 ```
+
+## enable ssh on new container
+```bash
+apt-get update
+apt-get install -y openssh-server
+service ssh status
+passwd root
+sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
+service ssh restart
+```
+
+##
+setting up github ssh
+
+```bash
+ssh-keygen -t ed25519 -C "dgx1_key" -f ~/.ssh/dgx1_key
+echo -e "Host github.com\n  HostName github.com\n  IdentityFile ~/.ssh/dgx1_key\n  User git" >> ~/.ssh/config
+cat ~/.ssh/dgx1_key.pub
+```
+
+
+
+
+
+
+
+
+
+
