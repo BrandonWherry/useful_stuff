@@ -60,8 +60,11 @@ cat ~/.ssh/dgx1_key.pub
 ```bash
 sudo docker run --name brandon -p 2600:22 -v /raid/projects/brandon:/workspace/storage --gpus all -it nvcr.io/nvidia/pytorch:23.05-py3
 ```
+## Add to .bashrc
 
-
+```bash
+echo 'export PS1="(`conda info --envs | grep \* | cut -d" " -f1`):\\W$ "' >> ~/.bashrc
+```
 
 
 
