@@ -47,8 +47,7 @@ sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd
 service ssh restart
 ```
 
-##
-setting up github ssh
+## setting up github ssh
 
 ```bash
 ssh-keygen -t ed25519 -C "dgx1_key" -f ~/.ssh/dgx1_key
@@ -56,8 +55,11 @@ echo -e "Host github.com\n  HostName github.com\n  IdentityFile ~/.ssh/dgx1_key\
 cat ~/.ssh/dgx1_key.pub
 ```
 
+## running docker container on dgx
 
-
+```bash
+sudo docker run --name brandon -p 2600:22 -v /raid/projects/brandon:/workspace/storage --gpus all -it nvcr.io/nvidia/pytorch:23.05-py3
+```
 
 
 
