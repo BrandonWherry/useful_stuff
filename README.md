@@ -27,7 +27,19 @@ echo 'termcapinfo xterm* ti@:te@'
 } >> ~/.bashrc
 ```
 
-## installing conda
+## installing conda with temporary environment variable
+```bash
+export MINICONDA_PATH=/workspace/storage/miniconda3
+mkdir -p $MINICONDA_PATH && \
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O $MINICONDA_PATH/miniconda.sh && \
+bash $MINICONDA_PATH/miniconda.sh -b -u -p $MINICONDA_PATH && \
+rm -rf $MINICONDA_PATH/miniconda.sh && \
+$MINICONDA_PATH/bin/conda init bash && \
+exec bash
+```
+
+OR
+
 ```bash
 mkdir -p ~/miniconda3 && \
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh && \
@@ -35,7 +47,8 @@ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3 && \
 rm -rf ~/miniconda3/miniconda.sh && \
 ~/miniconda3/bin/conda init bash && \
 exec bash
-```
+
+
 
 ## enable ssh on new container
 ```bash
