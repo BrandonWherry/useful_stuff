@@ -148,6 +148,10 @@ alias ga='git add'
 alias gll='git pull'
 alias gsh='git push'
 
+alias pi='pip install'
+alias pw='pip freeze > requirements.txt'
+alias pr='pip install -r requirements.txt'
+
 bashrc() {
 	nvim ~/.bashrc
 	source ~/.bashrc
