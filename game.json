@@ -17,11 +17,11 @@
         "tab1": {
           "layout": 3,
           "buttontext": "Welcome",
-          "title1": "Welcome to FTARK!",
+          "title1": "<RichColor Color="0.5,1,0.5,1">Welcome to FTARK!</>",
           "text1": "This is a no wipe cluster.\n\nJoin discord to #verify-discord to gain more points per hour.\n\n8 points per hour if unverified\n10 points per hour if verified.\n\nFTARK is non-P2W, and will always stay that way. Points can only be acquired by playing.",
-          "title2": "",
+          "title2": "<RichColor Color="0.5,1,0.5,1">Shop</>",
           "text2": "PC: \nShop acesss pushing F1.\n\nConsoles: \nShop access by pushing left thumbstick + left shoulder button.",
-          "title3": "Turret Filler",
+          "title3": "<RichColor Color="0.5,1,0.5,1">Turret Filler</>",
           "text3": "/fill - Fills and balances your turrets if you have ammo in your inventory, blocked from use if being raided, or PvP flagged.\n\n/turrets on - Turns turrets on.\n\n/turrets players heavy - Turns all heavies to players only (not tek or plant). You can do a lot more, type just /turrets to see all options.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
@@ -55,7 +55,7 @@
           "title1": "Life Cycle of Main FTARK Servers",
           "text1": "Day 0-450\nTransfers in: Characters\nTransfers out: Characters, Items, Dinos\n10x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  20 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 450-900\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  40 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 900-1800\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n6x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  60 min Raid Log Penalty\n  60 min ORP Activation", 
           "title2": "Wipe Conditions",
-          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf the server has 5 or more unique players in the past 7 days, then it passes the check.\n\nIf the server fails the pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. Players will always have newer servers to move to, no 2 servers have the same day count.\n\nImportant: The pop check only happens on duplicated maps. For example, if there is only 1 Center map, then there is no pop check.", 
+          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf a server has 5 or more players join it in the past 7 days, then it passes the pop check.\n\nIf a server fails a pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. The cluster as a whole will never wipe all at once.\n\nImportant: A pop check only happens on duplicated maps. For example, if there is only 1 Center map, then that map is perma.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
