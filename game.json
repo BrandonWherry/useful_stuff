@@ -18,7 +18,7 @@
           "layout": 3,
           "buttontext": "Welcome",
           "title1": "<RichColor Color=\"0,1,0,1\">Welcome to FTARK!</>",
-          "text1": "This is a no wipe cluster.\n\nJoin discord to #verify-discord to gain more points per hour.\n\n - 8 points per hour if unverified\n -10 points per hour if verified.\n\nFTARK is non-P2W cluster. Points can only be acquired by playing.",
+          "text1": "This is a no wipe cluster.\n\nJoin discord to #verify-discord to gain more points per hour.\n\n - 8 points per hour if unverified.\n -10 points per hour if verified.\n\nFTARK is non-P2W cluster. Points can only be acquired by playing.",
           "title2": "<RichColor Color=\"0,1,0,1\">Shop</>",
           "text2": "PC: \nShop access pushing F1.\n\nConsoles: \nShop access by pushing left thumbstick + left shoulder button.",
           "title3": "<RichColor Color=\"0,1,0,1\">Turret Filler</>",
@@ -30,9 +30,9 @@
         "tab2": {
           "layout": 2,
           "buttontext": "Rules",
-          "title1": "Rules 1-3",
+          "title1": "<RichColor Color=\"0,1,0,1\">Rules</>",
           "text1": "1) Meshing, using meshed bases, exploiting terrain, or utilizing structure glitches are prohibited.\n\n2) Banter and trash talk are permissible within limits, avoid toxicity. Keep trash talk centered on the game with no personal attacks.\n\n3) Do not exploit building mechanics on platforms or rafts to avoid turret damage or breach enemy bases. Structures on platforms shouldn't fully enclose dinos or players, except for the rider. For all platform dinos, don't build under the platform. Tek Rifle 'tunnels' on rafts/platforms are not allowed (they are allowed with non-platofrm building).",
-          "title2": "Rules 4-6",
+          "title2": "<RichColor Color=\"0,1,0,1\">More Rules</>",
           "text2": "4) ORP Fobs are not allowed. In addition, do not use multiple tribes to ORP block (such as ORP blocking a cave entrace with one tribe, and playing behind in another, assuming there is only 1 entrance to the cave).\n\n5) Tribe, player, and dino names, along with any custom text, should exclude derogatory or discriminatory terms. The prohibited words are generally intuitive. If in doubt, ask for clarification. Report offensive terms, but remember that the final decision on their appropriateness rests with an admin.\n\n6) Exploiting game mechanics to gain an unfair advantage in anyway that is not covered by previous rules is covered here. I can't think of every potential cheat/exploit in advance. I will take action case by case if a dispute happens.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
@@ -41,9 +41,9 @@
         "tab3": { 
           "layout": 2,
           "buttontext": "Settings",
-          "title1": "Multipliers",
+          "title1": "<RichColor Color=\"0,1,0,1\">Rates</>",
           "text1": "8x Taming, Gathering, Experience, and Breeding. 10x if new server (See Server Schedule for details)\n\nPlayers and Dinos gain 2x increased weight per point.\n\nEurypterids/Trilobites drop 5x black pearls. Other sources remain vanilla.\n\nDino max level = 180\n\nDino level distrubution is similar to Rag and Center (slightly better)\n\nEasier boss fights + easier ascension + all explorer note unlocks are on the shop.",
-          "title2": "More Settings",
+          "title2": "<RichColor Color=\"0,1,0,1\">More Setting Stuff</>",
           "text2": "White Drops: Artifacts and tribute items (helps to balance ORP cave building)\n\nBlue Drops: Mid-tier flak armor and weapons.\n\nGreen Drops: every saddle, with a 20% chance of getting a Blueprint.\n\nAll other drops: Vanilla\n\nFood and water drain rates reduced by 30%.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
@@ -52,10 +52,10 @@
         "tab4": { 
           "layout": 2,
           "buttontext": "Server Schedule",
-          "title1": "Life Cycle of Main FTARK Servers",
+          "title1": "<RichColor Color=\"0,1,0,1\">Server Schedules</>",
           "text1": "Day 0-450\nTransfers in: Characters\nTransfers out: Characters, Items, Dinos\n10x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  20 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 450-900\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  40 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 900-1800\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n6x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  60 min Raid Log Penalty\n  60 min ORP Activation", 
-          "title2": "Wipe Conditions",
-          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf a server has 5 or more players join it in the past 7 days, then it passes the pop check.\n\nIf a server fails a pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. The cluster as a whole will never wipe all at once.\n\nImportant: A pop check only happens on duplicated maps. For example, if there is only 1 Center map, then that map is perma.",
+          "title2": "<RichColor Color=\"0,1,0,1\">Wipe Conditions</>",
+          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf a server has 5 or more players join it in the past 7 days, then it passes the pop check.\n\nIf a server fails a pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster.\n\nThe cluster as a whole will never wipe all at once.\n\nA pop check only happens on duplicated maps. For example, if there is only 1 Center map, then that map is perma.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
@@ -63,9 +63,9 @@
         "tab5": { 
           "layout": 2,
           "buttontext": "20x Starter Server",
-          "title1": "Starter Server Info",
+          "title1": "<RichColor Color=\"0,1,0,1\">Starter Server Info</>",
           "text1": "Every month, a 20x Island starter server is reset. The basic idea is to give starting players 3 weeks of 20x, and 1 week of full transfers out + 10x. This server is for new players, or for players that have been wiped and want to rebuild with a boost.",
-          "title2": "More Starter Server Details",
+          "title2": "<RichColor Color=\"0,1,0,1\">Starter Server Details</>",
           "text2": "Day 1-300: (3 weeks)\n- No transfers are allowed.\n\nDay 300-450: (1 week)\nCharacter transfers allowed in.\nCharacters + Items + Dinos allowed out.\nServer is reset at day 450.\n\nAll items on the shop are 50% cheaper, but shop points do not carry over to main servers.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
