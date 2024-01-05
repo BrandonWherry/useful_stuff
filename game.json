@@ -15,12 +15,14 @@
     "tabs": [
       {
         "tab1": {
-          "layout": 2,
+          "layout": 3,
           "buttontext": "Welcome",
           "title1": "Welcome to FTARK!",
           "text1": "This is a no wipe cluster.\n\nJoin discord to #verify-discord to gain more points per hour.\n\n8 points per hour if unverified\n10 points per hour if verified.\n\nFTARK is non-P2W, and will always stay that way. Points can only be acquired by playing.",
           "title2": "",
           "text2": "PC: \nShop acesss pushing F1.\n\nConsoles: \nShop access by pushing left thumbstick + left shoulder button.",
+          "title3": "Turret Filler",
+          "text3": "/fill - Fills and balances your turrets if you have ammo in your inventory, blocked from use if being raided, or PvP flagged.\n\n/turrets on - Turns turrets on.\n\n/turrets players heavy - Turns all heavies to players only (not tek or plant). You can do a lot more, type just /turrets to see all options."
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
@@ -40,8 +42,8 @@
           "layout": 2,
           "buttontext": "Settings",
           "title1": "Multipliers",
-          "text1": "6x Taming, Gathering, Experience, and Breeding. This also depends on day count. See 'No Wipe Details'\n\nPlayers and Dinos gain 2x increased weight per point.\n\nEurypterids/Trilobites drop 5x black pearls. Other sources remain vanilla.\n\nDino max level = 180\n\nDino level distrubution is similar to Rag and Center (slightly better)\n\nEasier boss fights + easier ascension + all explorer note unlocks are on the shop.",
-          "title2": "Other Settings",
+          "text1": "8x Taming, Gathering, Experience, and Breeding. 10x if new server (See Server Schedule for details)\n\nPlayers and Dinos gain 2x increased weight per point.\n\nEurypterids/Trilobites drop 5x black pearls. Other sources remain vanilla.\n\nDino max level = 180\n\nDino level distrubution is similar to Rag and Center (slightly better)\n\nEasier boss fights + easier ascension + all explorer note unlocks are on the shop.",
+          "title2": "More Settings",
           "text2": "White Drops: Artifacts and tribute items (helps to balance ORP cave building)\n\nBlue Drops: Mid-tier flak armor and weapons.\n\nGreen Drops: every saddle, with a 20% chance of getting a Blueprint.\n\nAll other drops: Vanilla\n\nFood and water drain rates reduced by 30%.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
@@ -49,11 +51,11 @@
       {
         "tab4": { 
           "layout": 2,
-          "buttontext": "No Wipe Details",
+          "buttontext": "Server Schedule",
           "title1": "Life Cycle of Main FTARK Servers",
-          "text1": "Day 0-450\nTransfers in: Characters\nTransfers out: Characters, Items, Dinos\n10x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  20 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 450-900\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  40 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 900-1800\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n6x All\nSoft ORP (5x turret dmg, 10% structure damage)\n  1 Bubble: 15000 unit radius\n  60 min Raid Log Penalty\n  40 min ORP Activation", 
+          "text1": "Day 0-450\nTransfers in: Characters\nTransfers out: Characters, Items, Dinos\n10x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  20 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 450-900\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  40 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 900-1800\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n6x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  60 min Raid Log Penalty\n  60 min ORP Activation", 
           "title2": "Wipe Conditions",
-          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf the server has at least 4 peak players in the past 7 days, then it passes the check, the server is given another 900 days (2 months). And then the check is repeated.\n\nIf the server fails the pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. Players will always have newer servers to move to, no 2 servers have the same day count.\n\nImportant: The pop check only happens on duplicated maps. For example, if there is only 1 Center map. There will never be a pop check on that map.", 
+          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf the server has 5 or more unique players in the past 7 days, then it passes the check.\n\nIf the server fails the pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. Players will always have newer servers to move to, no 2 servers have the same day count.\n\nImportant: The pop check only happens on duplicated maps. For example, if there is only 1 Center map, then there is no pop check.", 
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
