@@ -3,7 +3,7 @@
     "settings": {
         "OpenButton": 6,
         "HideIcon": true,
-        "HideIconAfter": 120,
+        "HideIconAfter": 60,
         "IconURL": "https://cdn.discordapp.com/attachments/1181526137390768199/1181526812476588042/FTARK.png?ex=65a64b97&is=6593d697&hm=0f28a2af36c61bf6aa86adb777674a1fb6bad25c32c6d9fae57addd577978f7a&",
         "DisableIconText": false,
         "IconPosition": 0,
@@ -20,7 +20,7 @@
           "title1": "Welcome to FTARK!",
           "text1": "This is a no wipe cluster.\n\nJoin discord to #verify-discord to gain more points per hour.\n\n8 points per hour if unverified\n10 points per hour if verified.\n\nFTARK is non-P2W, and will always stay that way. Points can only be acquired by playing.",
           "title2": "",
-          "text2": "",
+          "text2": "PC: \nShop acesss pushing F1.\n\nConsoles: \nShop access by pushing left thumbstick + left shoulder button.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
@@ -53,7 +53,7 @@
           "title1": "Life Cycle of Main FTARK Servers",
           "text1": "Day 0-450\nTransfers in: Characters\nTransfers out: Characters, Items, Dinos\n10x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  20 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 450-900\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  40 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 900-1800\nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n6x All\nSoft ORP (5x turret dmg, 10% structure damage)\n  1 Bubble: 15000 unit radius\n  60 min Raid Log Penalty\n  40 min ORP Activation", 
           "title2": "Wipe Conditions",
-          "text2": "Day 1800+\nSame settings as 900-1800\nIf the server has at least 4 peak players in the past 7 days, then it passes the check, the server is given another 900 days (2 months). And then the check is repeated.\nIf the server fails the pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. Players will always have newer servers to move to, no 2 servers have the same day count.\nImportant: The pop check only happens on duplicated maps. For example, if there is only 1 Center map. There will never be a pop check on that map.", 
+          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf the server has at least 4 peak players in the past 7 days, then it passes the check, the server is given another 900 days (2 months). And then the check is repeated.\n\nIf the server fails the pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster. Players will always have newer servers to move to, no 2 servers have the same day count.\n\nImportant: The pop check only happens on duplicated maps. For example, if there is only 1 Center map. There will never be a pop check on that map.", 
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
@@ -62,7 +62,7 @@
           "layout": 2,
           "buttontext": "20x Starter Server",
           "title1": "Starter Server Info",
-          "text1": "Every month, our 20x Island starter server is reset. The basic idea is to give starting players 3 weeks of 20x, and 1 week of full transfers out + 10x. This server is for new players, or for players that have been wiped and want to rebuild with a boost.",
+          "text1": "Every month, a 20x Island starter server is reset. The basic idea is to give starting players 3 weeks of 20x, and 1 week of full transfers out + 10x. This server is for new players, or for players that have been wiped and want to rebuild with a boost.",
           "title2": "More Starter Server Details",
           "text2": "Day 1-300: (3 weeks)\n- No transfers are allowed.\n\nDay 300-450: (1 week)\nCharacter transfers allowed in.\nCharacters + Items + Dinos allowed out.\nServer is reset at day 450.\n\nAll items on the shop are 50% cheaper, but shop points do not carry over to main servers.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
