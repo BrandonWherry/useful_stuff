@@ -1,17 +1,17 @@
 {
   "WBUI2": {
     "settings": {
-        "OpenButton": 6,
-        "HideIcon": true,
-        "HideIconAfter": 60,
-        "IconURL": "https://cdn.discordapp.com/attachments/1181526137390768199/1181526812476588042/FTARK.png?ex=65a64b97&is=6593d697&hm=0f28a2af36c61bf6aa86adb777674a1fb6bad25c32c6d9fae57addd577978f7a&",
-        "DisableIconText": false,
-        "IconPosition": 0,
-        "IconTextColor": 0,
-        "OpenOnStart": false,
-        "OpenOnStartOnlyNewPlayers": true,
-        "UpdateInterval": 12
-      },
+      "OpenButton": 6,
+      "HideIcon": true,
+      "HideIconAfter": 60,
+      "IconURL": "https://cdn.discordapp.com/attachments/1181526137390768199/1181526812476588042/FTARK.png?ex=65a64b97&is=6593d697&hm=0f28a2af36c61bf6aa86adb777674a1fb6bad25c32c6d9fae57addd577978f7a&",
+      "DisableIconText": false,
+      "IconPosition": 0,
+      "IconTextColor": 0,
+      "OpenOnStart": false,
+      "OpenOnStartOnlyNewPlayers": true,
+      "UpdateInterval": 12
+    },
     "tabs": [
       {
         "tab1": {
@@ -38,35 +38,33 @@
         }
       },
       {
-        "tab3": { 
+        "tab3": {
           "layout": 2,
           "buttontext": "Settings",
           "title1": "<RichColor Color=\"0,1,0,1\">Rates</>",
-          "text1": "8x Taming, Gathering, Experience, and Breeding. 10x if new server (See Server Schedule for details)\n\nPlayers and Dinos gain 2x increased weight per point.\n\nEurypterids/Trilobites drop 5x black pearls. Other sources remain vanilla.\n\nDino max level = 180\n\nDino level distrubution is similar to Rag and Center (slightly better)\n\nEasier boss fights + easier ascension + all explorer note unlocks are on the shop.",
+          "text1": "8x Taming, Gathering, Experience, and Breeding.\n\nPlayers and Dinos gain 2x increased weight per point.\n\nEurypterids/Trilobites drop 5x black pearls. Other sources remain vanilla.\n\nDino max level = 180\n\nDino level distrubution is similar to Rag and Center (slightly better)\n\nAscension + all explorer note unlocks are on the shop(Easy Catchup for new players).",
           "title2": "<RichColor Color=\"0,1,0,1\">More Setting Stuff</>",
-          "text2": "White Drops: Artifacts and tribute items (helps to balance ORP cave building)\n\nBlue Drops: Mid-tier flak armor and weapons.\n\nGreen Drops: every saddle, with a 20% chance of getting a Blueprint.\n\nAll other drops: Vanilla\n\nFood and water drain rates reduced by 30%.",
+          "text2": "White Drops: Artifacts and tribute items (helps to balance ORP cave building)\n\nAll other drops: Vanilla\n\nFood and water drain rates reduced by 30%.\n\nNew maps have transfer restrictions for 1 month (no dino or item transfers). Naked Character transfers are allowed.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
       {
-        "tab4": { 
-          "layout": 2,
-          "buttontext": "Server Schedule",
-          "title1": "<RichColor Color=\"0,1,0,1\">Server Schedules</>",
-          "text1": "Day 0-450: \nTransfers in: Characters Only\nTransfers out: Characters, Items, Dinos\n10x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  20 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 450-900: \nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  40 min Raid Log Penalty\n  40 min ORP Activation\n\nDay 900-1800: \nTransfers in: Characters, Items, Dinos\nTransfers out: Characters, Items, Dinos\n8x All\nHard ORP\n  1 Bubble: 15000 unit radius\n  60 min Raid Log Penalty\n  60 min ORP Activation", 
-          "title2": "<RichColor Color=\"0,1,0,1\">Wipe Conditions</>",
-          "text2": "Day 1800+\n Same settings as 900-1800\n\nIf a server has 5 or more players join it in the past 7 days, then it passes the pop check.\n\nIf a server fails a pop check, a 30 day extinction event starts. Players will have 30 days to move to a different server on the cluster.\n\nThe cluster as a whole will never wipe all at once.\n\nA pop check only happens on duplicated maps. For example, if there is only 1 Center map, then that map is perma.",
+        "tab4": {
+          "layout": 1,
+          "buttontext": "ORP Details",
+          "title1": "<RichColor Color=\"0,1,0,1\">ORP Stuff</>",
+          "text1": "1 Bubble per server, 15000 unit radius\n20 min Raid Log Penalty\n60 min ORP Activation\n\n",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
       {
-        "tab5": { 
+        "tab5": {
           "layout": 2,
-          "buttontext": "20x Starter Server",
-          "title1": "<RichColor Color=\"0,1,0,1\">Starter Server Info</>",
-          "text1": "Every month, a 20x Island starter server is reset. The basic idea is to give starting players 3 weeks of 20x, and 1 week of full transfers out + 10x. This server is for new players, or for players that have been wiped and want to rebuild with a boost.",
-          "title2": "<RichColor Color=\"0,1,0,1\">Starter Server Details</>",
-          "text2": "Day 1-300: (3 weeks)\n- No transfers are allowed.\n\nDay 300-450: (1 week)\nCharacter transfers allowed in.\nCharacters + Items + Dinos allowed out.\nServer is reset at day 450.\n\nAll items on the shop are 50% cheaper, but shop points do not carry over to main servers.",
+          "buttontext": "Shop",
+          "title1": "<RichColor Color=\"0,1,0,1\">Shop Info</>",
+          "text1": "If you cannot access the shop normally (all shop mods are blocked for consoles) then you need to buy shop items using chat commands.\n\nFor example: \n/buy clever 1 - buys 1 clever artifact.\nAll Prices and IDs are listed to the right.",
+          "title2": "<RichColor Color=\"0,1,0,1\">Shop IDs and Price</>",
+          "text2": "ID                  Price\nascend3             100          Ascension 3\nexplorernotes       100          Gives All Explorer Notes\ncloner-stego        100          Lvl 1 Stego\ncloner-rex          100          Lvl 1 Rex\ncloner-ptero        100          Lvl 1 Ptero\ncloner-thyla        100          Lvl 1 Thyla\ncloner-mega         100          Lvl 1 Mega\ncloner-trike        100          Lvl 1 Trike\ncloner-argent       100          Lvl 1 Argent\ncloner-paracer      100          Lvl 1 Paracer\ncloner-turtle       100          Lvl 1 Turtle\ncloner-theri        100          Lvl 1 Theri\ncloner-quetz        100          Lvl 1 Quetz\ncloner-rhino        100          Lvl 1 Rhino\ncloner-giga         100          Lvl 1 Giga\ncloner-carchar      100          Lvl 1 Carchar\ncloner-basi         100          Lvl 1 Cryoed Basi\ncloner-mosa         100          Lvl 1 Cryoed Mosa\ncloner-tuso         100          Lvl 1 Cryoed Tuso\ncloner-dunk         100          Lvl 1 Cryoed Dunk\novis                25           Lvl 50 Ovis\ngolden-egg          60           Golden Egg\nmindwipe            10           BrainWipeJuice\nquetz-egg           40           Quetz Egg\ngiga-egg            40           Giga Egg\ncarchar-egg         40           Carchar Egg\ntranqs              10           50x Tranq Arrows\ntranq-darts         15           50x Tranq Darts\ncrossbow            10           Crossbow\narb-bp              50           ARB BP. You can craft ammo for days!\nlongneck            12           Longneck\nkibble              25           6x Exceptional Kibble\nbrute               5            Brute Artifact\nclever              5            Clever Artifact\ncunning             5            Cunning Artifact\ndevourer            5            Devourer Artifact\nhunter              5            Hunter Artifact\nimmune              5            Immune Artifact\nmassive             5            Massive Artifact\npack                5            Pack Artifact\nskylord             5            Skylord Artifact\nstrong              5            Strong Artifact\ngiga-heart          5            Giga Heart... Metal\nswamp-cave-drop3    80           Swamp Cave Red Crate\nswamp-cave-drop2    60           Swamp Cave Yellow Crate\nswamp-cave-drop1    40           Swamp Cave Blue Crate\nice-cave-drop3      80           Ice Cave Red Crate\nice-cave-drop2      60           Ice Cave Yellow Crate\nice-cave-drop1      40           Ice Cave Blue Crate\ndeepsea-drop        70           Deep Sea Loot Crate\nwater-cave-drop3    80           Underwater Cave Red Crate\nwater-cave-drop2    60           Underwater Cave Yellow Crate\nwater-cave-drop1    40           Underwater Cave Blue Crate\nstructure-token     80           Structure Token\nitem-token          80           Item Token\ndino-token          100          Dino Token\n",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       }
