@@ -15,14 +15,16 @@
     "tabs": [
       {
         "tab1": {
-          "layout": 3,
+          "layout": 4,
           "buttontext": "Welcome",
           "title1": "<RichColor Color=\"0,1,0,1\">Welcome to FTARK!</>",
           "text1": "FTARK is a no-wipe cluster.\n\nJoin discord to #verify-discord to gain more points per hour.\n\n - 8 points per hour if unverified.\n -10 points per hour if verified.\n\nPoints can only be acquired by playing, there is no P2W in any form.",
           "title2": "<RichColor Color=\"0,1,0,1\">Shop</>",
-          "text2": "PC: \nAccess shop by pushing F1.\n\nConsoles: \nAccess shop by pushing left thumbstick + left shoulder button.",
+          "text2": "PC: \nAccess shop by pushing F1.\n\nConsoles: \nAccess shop by pushing left thumbstick + left shoulder button (see shop tab if this does not work).",
           "title3": "<RichColor Color=\"0,1,0,1\">Turret Filler</>",
           "text3": "/fill - Fills and balances your turrets if you have ammo in your inventory, blocked from use if being raided, or PvP flagged.\n\n/turrets on - Turns turrets on.\n\n/turrets players heavy - Turns all heavies to players only (not tek or plant). You can do a lot more, type just /turrets to see all options.",
+          "title4": "<RichColor Color=\"0,1,0,1\">ORP Info</>",
+          "text4": "Place the 'Lethal Protection Shield' for Offline Raid Protection.",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       },
@@ -50,21 +52,12 @@
       },
       {
         "tab4": {
-          "layout": 1,
-          "buttontext": "ORP Details",
-          "title1": "<RichColor Color=\"0,1,0,1\">ORP Stuff</>",
-          "text1": "1 Bubble per server, 15000 unit radius\n20 min Raid Log Penalty\n60 min ORP Activation\n\n",
-          "imageurl": "https://i.imgur.com/vkGGn17.png"
-        }
-      },
-      {
-        "tab5": {
           "layout": 2,
           "buttontext": "Shop",
           "title1": "<RichColor Color=\"0,1,0,1\">Shop Info</>",
           "text1": "If you cannot access the shop normally (all shop mods are blocked for consoles) then you need to buy shop items using chat commands.\n\nFor example: \n/buy clever 1 - buys 1 clever artifact.\nAll Prices and IDs are listed to the right.",
           "title2": "<RichColor Color=\"0,1,0,1\">Shop IDs and Price</>",
-          "text2": "ID                    Price\nascend3               100      Ascension 3\nexplorernotes         100      Gives All Explorer Notes\ncloner-stego          100      Lvl 1 Stego\ncloner-rex            100      Lvl 1 Rex\ncloner-ptero          100      Lvl 1 Ptero\ncloner-thyla          100      Lvl 1 Thyla\ncloner-mega           100      Lvl 1 Mega\ncloner-trike          100      Lvl 1 Trike\ncloner-argent         100      Lvl 1 Argent\ncloner-paracer        100      Lvl 1 Paracer\ncloner-turtle         100      Lvl 1 Turtle\ncloner-theri          100      Lvl 1 Theri\ncloner-quetz          100      Lvl 1 Quetz\ncloner-rhino          100      Lvl 1 Rhino\ncloner-giga           100      Lvl 1 Giga\ncloner-carchar        100      Lvl 1 Carchar\ncloner-basi           100      Lvl 1 Cryoed Basi\ncloner-mosa           100      Lvl 1 Cryoed Mosa\ncloner-tuso           100      Lvl 1 Cryoed Tuso\ncloner-dunk           100      Lvl 1 Cryoed Dunk\novis                  25       Lvl 50 Ovis\ngolden-egg            60       Golden Egg\nmindwipe              10       BrainWipeJuice\nquetz-egg             40       Quetz Egg\ngiga-egg              40       Giga Egg\ncarchar-egg           40       Carchar Egg\ntranqs                10       50x Tranq Arrows\ntranq-darts           15       50x Tranq Darts\ncrossbow              10       Crossbow\narb-bp                50       ARB BP. You can craft ammo for days!\nlongneck              12       Longneck\nkibble                25       6x Exceptional Kibble\nbrute                 5        Brute Artifact\nclever                5        Clever Artifact\ncunning               5        Cunning Artifact\ndevourer              5        Devourer Artifact\nhunter                5        Hunter Artifact\nimmune                5        Immune Artifact\nmassive               5        Massive Artifact\npack                  5        Pack Artifact\nskylord               5        Skylord Artifact\nstrong                5        Strong Artifact\ngiga-heart            5        Giga Heart... Metal\nswamp-cave-drop3      80       Swamp Cave Red Crate\nswamp-cave-drop2      60       Swamp Cave Yellow Crate\nswamp-cave-drop1      40       Swamp Cave Blue Crate\nice-cave-drop3        80       Ice Cave Red Crate\nice-cave-drop2        60       Ice Cave Yellow Crate\nice-cave-drop1        40       Ice Cave Blue Crate\ndeepsea-drop          70       Deep Sea Loot Crate\nwater-cave-drop3      80       Underwater Cave Red Crate\nwater-cave-drop2      60       Underwater Cave Yellow Crate\nwater-cave-drop1      40       Underwater Cave Blue Crate\nstructure-token       80       Structure Token\nitem-token            80       Item Token\ndino-token            100      Dino Token\n",
+          "text2": "ID                          Price\nascend3                     100      Ascension 3\nexplorernotes               100      Gives All Explorer Notes\ncloner-stego                100      Lvl 1 Stego\ncloner-rex                  100      Lvl 1 Rex\ncloner-ptero                100      Lvl 1 Ptero\ncloner-thyla                100      Lvl 1 Thyla\ncloner-mega                 100      Lvl 1 Mega\ncloner-trike                100      Lvl 1 Trike\ncloner-argent               100      Lvl 1 Argent\ncloner-paracer              100      Lvl 1 Paracer\ncloner-turtle               100      Lvl 1 Turtle\ncloner-theri                100      Lvl 1 Theri\ncloner-quetz                100      Lvl 1 Quetz\ncloner-rhino                100      Lvl 1 Rhino\ncloner-giga                 100      Lvl 1 Giga\ncloner-carchar              100      Lvl 1 Carchar\ncloner-basi                 100      Lvl 1 Cryoed Basi\ncloner-mosa                 100      Lvl 1 Cryoed Mosa\ncloner-tuso                 100      Lvl 1 Cryoed Tuso\ncloner-dunk                 100      Lvl 1 Cryoed Dunk\novis                        25       Lvl 50 Ovis\ngolden-egg                  60       Golden Egg\nmindwipe                    10       BrainWipeJuice\nquetz-egg                   40       Quetz Egg\ngiga-egg                    40       Giga Egg\ncarchar-egg                 40       Carchar Egg\ntranqs                      10       50x Tranq Arrows\ntranq-darts                 15       50x Tranq Darts\ncrossbow                    10       Crossbow\narb-bp                      50       ARB BP\nlongneck                    12       Longneck\nkibble                      25       6x Exceptional Kibble\nbrute                       5        Brute Artifact\nclever                      5        Clever Artifact\ncunning                     5        Cunning Artifact\ndevourer                    5        Devourer Artifact\nhunter                      5        Hunter Artifact\nimmune                      5        Immune Artifact\nmassive                     5        Massive Artifact\npack                        5        Pack Artifact\nskylord                     5        Skylord Artifact\nstrong                      5        Strong Artifact\ngiga-heart                  5        Giga Heart... Metal\nswamp-cave-drop3            80       Swamp Cave Red Crate\nswamp-cave-drop2            60       Swamp Cave Yellow Crate\nswamp-cave-drop1            40       Swamp Cave Blue Crate\nice-cave-drop3              80       Ice Cave Red Crate\nice-cave-drop2              60       Ice Cave Yellow Crate\nice-cave-drop1              40       Ice Cave Blue Crate\ndeepsea-drop                70       Deep Sea Loot Crate\nwater-cave-drop3            80       Underwater Cave Red Crate\nwater-cave-drop2            60       Underwater Cave Yellow Crate\nwater-cave-drop1            40       Underwater Cave Blue Crate\nstructure-token             80       Structure Token\nitem-token                  80       Item Token\ndino-token                  100      Dino Token\n",
           "imageurl": "https://i.imgur.com/vkGGn17.png"
         }
       }
